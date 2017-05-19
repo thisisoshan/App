@@ -71,7 +71,7 @@ var _class = function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                url = "https://thisisoshan.github.io/react-app/static/data/";
+                url = "https://thisisoshan.github.io/App/static/data/";
                 file = "index";
                 _context.next = 4;
                 return fetch(url + file + '.json');
