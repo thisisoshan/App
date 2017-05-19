@@ -1,0 +1,53 @@
+@fontC : "'Cinzel', monospace";
+@fontP : "'Playfair Display', sans-serif";
+
+.landing-bg {
+  background-image: linear-gradient(rgba(212,47,47,.2),rgba(212,47,47,.3)), url(/static/img/head.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.nav-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.welcome {
+  height: 325px;
+  width: 625px;
+  padding: 50px 0 0px 25px;
+  background: rgba(255, 245, 245, 0.70);
+  border-top: 2px solid rgba(212,47,47,.75);
+  border-bottom: 2px solid rgba(212,47,47,.75);
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  text-transform: uppercase;
+
+  h1 {
+    margin: 10px 0;
+    font-family: @fontC;
+  }
+  h4 {
+    margin: 5px 0 0 0;
+    text-transform: uppercase;
+    font-family: @fontP;
+  }
+  a p i {
+    font-size: inherit;
+    transform: rotate(135deg);
+  }
+}
+.welcome-text {
+  padding-top: 125px;
+
+  h5 {
+    text-transform: uppercase;
+    color: initial;
+    padding-bottom: 25px;
+  }
+  p {
+      font-size: 120%;
+  }
+}
