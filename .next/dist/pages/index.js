@@ -48,9 +48,6 @@ require('isomorphic-fetch');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = 'C:\\project\\App\\pages\\index.js?entry';
-
-
 var _class = function (_React$Component) {
   (0, _inherits3.default)(_class, _React$Component);
 
@@ -63,119 +60,7 @@ var _class = function (_React$Component) {
   (0, _createClass3.default)(_class, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('div', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        }
-      }, _react2.default.createElement(_head2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        }
-      }, _react2.default.createElement('meta', { charset: 'UTF-8', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        }
-      }), _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        }
-      }), _react2.default.createElement('title', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        }
-      }, 'Welcome | Strontium University'), _react2.default.createElement('link', { href: '/static/img/favicon/favicon.ico', rel: 'icon', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        }
-      }), _react2.default.createElement('link', { href: 'static/css/reset.css', rel: 'stylesheet', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        }
-      }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        }
-      }), _react2.default.createElement('link', { href: 'static/materialize/css/materialize.min.css', rel: 'stylesheet', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        }
-      }), _react2.default.createElement('link', { href: 'static/build/css/global.css', rel: 'stylesheet', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        }
-      }), _react2.default.createElement('link', { href: 'static/build/css/index.css', rel: 'stylesheet', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        }
-      })), _react2.default.createElement('section', { className: 'fullscreen', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        }
-      }, _react2.default.createElement('div', { className: 'fullscreen landing-bg', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        }
-      }, _react2.default.createElement('div', { className: 'welcome', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        }
-      }, _react2.default.createElement('h4', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        }
-      }, 'Welcome To'), _react2.default.createElement('h1', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        }
-      }, 'Strontium University'), _react2.default.createElement('a', { href: '#more', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        }
-      }, _react2.default.createElement('p', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        }
-      }, 'WE ARE CREATING THE CREATORS'))))), _react2.default.createElement(_Nav2.default, { Page: 'Home', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        }
-      }), _react2.default.createElement('main', { id: 'more', className: 'fullscreen', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        }
-      }, _react2.default.createElement('section', { className: 'welcome-text', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        }
-      }, _react2.default.createElement('h5', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        }
-      }, this.props.data.welcomeTitle), _react2.default.createElement('p', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        }
-      }, this.props.data.welcomeText))), _react2.default.createElement('script', { src: 'https://code.jquery.com/jquery-3.2.1.min.js', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        }
-      }), _react2.default.createElement('script', { src: 'http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        }
-      }), _react2.default.createElement('script', { type: 'text/javascript', src: '/static/build/js/global.js', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        }
-      }));
+      return _react2.default.createElement('div', null, _react2.default.createElement(_head2.default, null, _react2.default.createElement('meta', { charset: 'UTF-8' }), _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' }), _react2.default.createElement('title', null, 'Welcome | Strontium University'), _react2.default.createElement('link', { href: '/static/img/favicon/favicon.ico', rel: 'icon' }), _react2.default.createElement('link', { href: 'static/css/reset.css', rel: 'stylesheet' }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel: 'stylesheet' }), _react2.default.createElement('link', { href: 'static/materialize/css/materialize.min.css', rel: 'stylesheet' }), _react2.default.createElement('link', { href: 'static/build/css/global.css', rel: 'stylesheet' }), _react2.default.createElement('link', { href: 'static/build/css/index.css', rel: 'stylesheet' })), _react2.default.createElement('section', { className: 'fullscreen' }, _react2.default.createElement('div', { className: 'fullscreen landing-bg' }, _react2.default.createElement('div', { className: 'welcome' }, _react2.default.createElement('h4', null, 'Welcome To'), _react2.default.createElement('h1', null, 'Strontium University'), _react2.default.createElement('a', { href: '#more' }, _react2.default.createElement('p', null, 'WE ARE CREATING THE CREATORS'))))), _react2.default.createElement(_Nav2.default, { Page: 'Home' }), _react2.default.createElement('main', { id: 'more', className: 'fullscreen' }, _react2.default.createElement('section', { className: 'welcome-text' }, _react2.default.createElement('h5', null, this.props.data.welcomeTitle), _react2.default.createElement('p', null, this.props.data.welcomeText))), _react2.default.createElement('script', { src: 'https://code.jquery.com/jquery-3.2.1.min.js' }), _react2.default.createElement('script', { src: 'http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js' }), _react2.default.createElement('script', { type: 'text/javascript', src: '/static/build/js/global.js' }));
     }
   }], [{
     key: 'getInitialProps',
@@ -186,7 +71,7 @@ var _class = function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                url = "http://localhost:40/static/data/";
+                url = "https://thisisoshan.github.io/App/static/data/";
                 file = "index";
                 _context.next = 4;
                 return fetch(url + file + '.json');

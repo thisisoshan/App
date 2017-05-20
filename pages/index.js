@@ -6,7 +6,7 @@ import 'isomorphic-fetch';
 export default class extends React.Component {
 
   static async getInitialProps () {
-    const url = "http://localhost:40/static/data/"
+    const url = "https://thisisoshan.github.io/App/static/data/"
     const file= "index"
     const res = await fetch(url + file + '.json')
     const data = await res.json()
