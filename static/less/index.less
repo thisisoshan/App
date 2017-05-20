@@ -1,5 +1,7 @@
 @fontC : 'Cinzel', monospace;
+@fontD : 'Cinzel Decorative', monospace;
 @fontP : 'Playfair Display', sans-serif;
+@fontCO : 'Cormorant SC', serif;
 
 .landing-bg {
   background-image: linear-gradient(rgba(212,47,47,.2),rgba(212,47,47,.3)), url(/static/img/head.jpg);
@@ -34,9 +36,13 @@
     text-transform: uppercase;
     font-family: @fontP;
   }
-  a p i {
-    font-size: inherit;
-    transform: rotate(135deg);
+  a {
+    display: block;
+    border-bottom: none;
+  }
+  p {
+    font-family: @fontP;
+    font-size: 120%;
   }
 }
 .welcome-text {

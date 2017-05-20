@@ -21,7 +21,7 @@ export default () => (
   <Hero />
   <main className="fullscreen">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="/static/build/js/global.js"></script>
   </main>
 </div>
