@@ -13,7 +13,6 @@ export default () => (
       <link href="static/css/reset.css" rel="stylesheet"/>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
       <link href="static/materialize/css/materialize.min.css" rel="stylesheet"/>
-      <link href="static/build/css/global.css" rel="stylesheet"/>
       <link href="static/build/css/secondary.css" rel="stylesheet"/>
   </Head>
 
