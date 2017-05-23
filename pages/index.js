@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../components/Nav';
+import Card from '../components/Card';
 import Head from 'next/head';
 import 'isomorphic-fetch';
 
@@ -42,6 +43,15 @@ render () {
             <section className="welcome-text">
               <h5>{this.props.data.welcomeTitle}</h5>
               <p>{this.props.data.welcomeText}</p>
+            </section>
+            <section className="cards">
+              <Card img="01.jpg" Title="Consistent" clsDesc="right" clsImg="left" />
+              <Card img="02.jpg" Title="Co-operative" clsDesc="left" clsImg="right" />
+              <Card img="03.jpg" Title="Diversified" clsDesc="right" clsImg="left" />
+              <Card img="04.jpg" Title="Excellent" clsDesc="left" clsImg="right" />
+              <Card img="05.jpg" Title="Concise" clsDesc="right" clsImg="left" />
+              <Card img="06.jpg" Title="Responsible" clsDesc="left" clsImg="right" />
+              <Card img="07.jpg" Title="Creative" clsDesc="right" clsImg="left" />
             </section>
 
           </main>

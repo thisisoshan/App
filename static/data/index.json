@@ -1,4 +1,60 @@
 {
-    "welcomeTitle" : "We are creating the creators",
-    "welcomeText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus incidunt ducimus ad, laborum in, laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique, saepe? adipisicing elit. Doloribus incidunt ducimus ad, laborum in, laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique, saepe? laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique"
+    "welcomeTitle"  : "We are creating the creators",
+    "welcomeText"   : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus incidunt ducimus ad, laborum in, laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique, saepe? adipisicing elit. Doloribus incidunt ducimus ad, laborum in, laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique, saepe? laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique",
+    "card" : [{
+        "cardTitle"     : "Consistent",
+        "cardTitleClass": "right",
+        "cardImgClass"  : "left",
+        "cardImgName"   : "01.jpg",
+        "cardImgAlt"    : "Consistency",
+        "cardDesc"      : "Lorem Ipsum dolor sit amet, oporteat sensibus eloquentiam vim no, eu denique ancillae ius. Explicari referrentur mel ne, et cum ferri iriure expetendis, quot reque id vix. Mel an utinam graeco delenit, dicunt disputando an sit. An idque liber vulputate cum, eruditi imperdiet theophrastus ne pri, iriure legimus accusamus vis ne. Id cum vidit repudiare expetendis, sit at tota homero. Quo eu dicit torquatos dissentiet, sententiae honestatis instructior ad quo."
+    },
+    {
+        "cardTitle"     : "Co-operative",
+        "cardTitleClass": "left",
+        "cardImgClass"  : "right",
+        "cardImgName"   : "02.jpg",
+        "cardImgAlt"    : "Co-operative",
+        "cardDesc"      : "Lorem Ipsum dolor sit amet, oporteat sensibus eloquentiam vim no, eu denique ancillae ius. Explicari referrentur mel ne, et cum ferri iriure expetendis, quot reque id vix. Mel an utinam graeco delenit, dicunt disputando an sit. An idque liber vulputate cum, eruditi imperdiet theophrastus ne pri, iriure legimus accusamus vis ne. Id cum vidit repudiare expetendis, sit at tota homero. Quo eu dicit torquatos dissentiet, sententiae honestatis instructior ad quo."
+    },
+    {
+        "cardTitle"     : "Diversified",
+        "cardTitleClass": "right",
+        "cardImgClass"  : "left",
+        "cardImgName"   : "03.jpg",
+        "cardImgAlt"    : "Diversified",
+        "cardDesc"      : "Lorem Ipsum dolor sit amet, oporteat sensibus eloquentiam vim no, eu denique ancillae ius. Explicari referrentur mel ne, et cum ferri iriure expetendis, quot reque id vix. Mel an utinam graeco delenit, dicunt disputando an sit. An idque liber vulputate cum, eruditi imperdiet theophrastus ne pri, iriure legimus accusamus vis ne. Id cum vidit repudiare expetendis, sit at tota homero. Quo eu dicit torquatos dissentiet, sententiae honestatis instructior ad quo."
+    },
+    {
+        "cardTitle"     : "Excellent",
+        "cardTitleClass": "left",
+        "cardImgClass"  : "right",
+        "cardImgName"   : "04.jpg",
+        "cardImgAlt"    : "Excellent",
+        "cardDesc"      : "Lorem Ipsum dolor sit amet, oporteat sensibus eloquentiam vim no, eu denique ancillae ius. Explicari referrentur mel ne, et cum ferri iriure expetendis, quot reque id vix. Mel an utinam graeco delenit, dicunt disputando an sit. An idque liber vulputate cum, eruditi imperdiet theophrastus ne pri, iriure legimus accusamus vis ne. Id cum vidit repudiare expetendis, sit at tota homero. Quo eu dicit torquatos dissentiet, sententiae honestatis instructior ad quo."
+    },
+    {
+        "cardTitle"     : "Concise",
+        "cardTitleClass": "right",
+        "cardImgClass"  : "left",
+        "cardImgName"   : "05.jpg",
+        "cardImgAlt"    : "Concise",
+        "cardDesc"      : "Lorem Ipsum dolor sit amet, oporteat sensibus eloquentiam vim no, eu denique ancillae ius. Explicari referrentur mel ne, et cum ferri iriure expetendis, quot reque id vix. Mel an utinam graeco delenit, dicunt disputando an sit. An idque liber vulputate cum, eruditi imperdiet theophrastus ne pri, iriure legimus accusamus vis ne. Id cum vidit repudiare expetendis, sit at tota homero. Quo eu dicit torquatos dissentiet, sententiae honestatis instructior ad quo."
+    },
+    {
+        "cardTitle"     : "Responsible",
+        "cardTitleClass": "left",
+        "cardImgClass"  : "right",
+        "cardImgName"   : "06.jpg",
+        "cardImgAlt"    : "Responsible",
+        "cardDesc"      : "Lorem Ipsum dolor sit amet, oporteat sensibus eloquentiam vim no, eu denique ancillae ius. Explicari referrentur mel ne, et cum ferri iriure expetendis, quot reque id vix. Mel an utinam graeco delenit, dicunt disputando an sit. An idque liber vulputate cum, eruditi imperdiet theophrastus ne pri, iriure legimus accusamus vis ne. Id cum vidit repudiare expetendis, sit at tota homero. Quo eu dicit torquatos dissentiet, sententiae honestatis instructior ad quo."
+    },
+    {
+        "cardTitle"     : "Creative",
+        "cardTitleClass": "right",
+        "cardImgClass"  : "left",
+        "cardImgName"   : "07.jpg",
+        "cardImgAlt"    : "Creative",
+        "cardDesc"      : "Lorem Ipsum dolor sit amet, oporteat sensibus eloquentiam vim no, eu denique ancillae ius. Explicari referrentur mel ne, et cum ferri iriure expetendis, quot reque id vix. Mel an utinam graeco delenit, dicunt disputando an sit. An idque liber vulputate cum, eruditi imperdiet theophrastus ne pri, iriure legimus accusamus vis ne. Id cum vidit repudiare expetendis, sit at tota homero. Quo eu dicit torquatos dissentiet, sententiae honestatis instructior ad quo."
+    }]
 }

@@ -1,1 +1,190 @@
-@import url(https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative|Playfair+Display|Cormorant+SC);body,html{height:100%;width:100%;color:#333}::selection{color:#fff;background:rgba(211,47,47,.75)}a{color:inherit;border-bottom:1px solid #333}p{display:inline}div{height:100%;width:100%}.card-panel{margin:0;border-radius:0;padding:0}.fullscreen{height:100%;width:100%}.halfscreen{height:50%;width:100%}header{width:100%;height:60px;position:absolute;bottom:0;left:0;z-index:999999}.nav-top{position:fixed;top:0}.nav{height:60px;width:100%;background:#E3E0E6}.nav div{width:700px;height:60px;margin:0 auto}.nav div a{border-bottom:0;font-family:'Cinzel Decorative',monospace;height:100%;width:100px;display:inline-block;text-align:center}.nav div a p{font-size:18px;height:25px;padding:17.5px 0}.title{font-family:Cinzel,monospace;height:auto;width:100%;background:rgba(255,225,235,.65);text-align:center;border-bottom:2px solid rgba(211,47,47,.25)}.title h5{margin:0;padding:15px 0;text-transform:uppercase}main{width:100%;font-family:Cinzel,monospace}main section{text-align:center;width:900px;margin:0 auto}.landing-bg{background-image:linear-gradient(rgba(212,47,47,.2),rgba(212,47,47,.3)),url(/static/img/head.jpg);background-size:cover;background-repeat:no-repeat;background-attachment:fixed;background-position:center;position:relative}.nav-bottom{position:absolute;bottom:0}.welcome{height:325px;width:625px;padding:50px 0 0 25px;background:rgba(255,245,245,.7);border-top:2px solid rgba(212,47,47,.75);border-bottom:2px solid rgba(212,47,47,.75);position:absolute;top:25%;left:10%;text-transform:uppercase}.welcome h1{margin:10px 0;font-family:Cinzel,monospace}.welcome h4{margin:5px 0 0;text-transform:uppercase;font-family:'Playfair Display',sans-serif}.welcome a{display:block;border-bottom:0}.welcome p{font-family:'Playfair Display',sans-serif;font-size:120%}.welcome-text{padding-top:125px}.welcome-text h5{text-transform:uppercase;color:initial;padding-bottom:25px}.welcome-text p{font-size:120%}
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative|Playfair+Display|Cormorant+SC');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: #333;
+}
+::selection {
+  color: #fff;
+  background: rgba(211, 47, 47, 0.75);
+}
+a {
+  color: inherit;
+  border-bottom: 1px solid #333;
+}
+p {
+  display: inline;
+}
+div {
+  height: 100%;
+  width: 100%;
+}
+.card-panel {
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+}
+.fullscreen {
+  height: 100%;
+  width: 100%;
+}
+.halfscreen {
+  height: 50%;
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+}
+.nav-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.nav-top {
+  position: fixed;
+  top: 0;
+}
+.nav {
+  height: 60px;
+  width: 100%;
+  background: #E3E0E6;
+}
+.nav div {
+  width: 700px;
+  height: 60px;
+  margin: 0 auto;
+}
+.nav div a {
+  border-bottom: none;
+  font-family: 'Cinzel Decorative', monospace;
+  height: 100%;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+}
+.nav div a p {
+  font-size: 18px;
+  height: 25px;
+  padding: 17.5px 0;
+}
+.title {
+  font-family: 'Cinzel', monospace;
+  height: auto;
+  width: 100%;
+  background: rgba(255, 225, 235, 0.65);
+  text-align: center;
+  border-bottom: 2px solid rgba(211, 47, 47, 0.25);
+}
+.title h5 {
+  margin: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+main {
+  width: 100%;
+  font-family: 'Cinzel', monospace;
+}
+main section {
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+}
+.landing-bg {
+  background-image: linear-gradient(rgba(212, 47, 47, 0.2), rgba(212, 47, 47, 0.3)), url(/static/img/head.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.nav-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.welcome {
+  height: 325px;
+  width: 625px;
+  padding: 50px 0 0px 25px;
+  background: rgba(255, 245, 245, 0.7);
+  border-top: 2px solid rgba(212, 47, 47, 0.75);
+  border-bottom: 2px solid rgba(212, 47, 47, 0.75);
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  text-transform: uppercase;
+}
+.welcome h1 {
+  margin: 10px 0;
+  font-family: 'Cinzel', monospace;
+}
+.welcome h4 {
+  margin: 5px 0 0 0;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', sans-serif;
+}
+.welcome a {
+  display: block;
+  border-bottom: none;
+}
+.welcome p {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 120%;
+}
+.welcome-text {
+  padding-top: 125px;
+}
+.welcome-text h5 {
+  text-transform: uppercase;
+  color: initial;
+  padding-bottom: 25px;
+}
+.welcome-text p {
+  font-size: 120%;
+}
+.cards {
+  width: 900px;
+}
+.cards .card {
+  height: 400px;
+  width: 100%;
+  background: #aaa;
+  margin: 85px 0;
+}
+.cards .card .content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.cards .card .content .image {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+.cards .card .content .image img {
+  height: 100%;
+  width: auto;
+  margin: 0 -50px;
+}
+.cards .card .content .description {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
