@@ -21,8 +21,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "launch": "next start -p 30",
-    "relaunch": "next re-start -p 30"
+    "launch": "next start -p 30"
   },
   "plugins": [
     "styled-jsx/babel"

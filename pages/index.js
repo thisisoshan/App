@@ -1,19 +1,19 @@
 import React from 'react'
-import Nav from '../components/Nav';
-import Card from '../components/Card';
-import Head from 'next/head';
-import 'isomorphic-fetch';
+import Nav from '../components/Nav'
+import Card from '../components/Card'
+import Head from 'next/head'
+import 'isomorphic-fetch'
 
 export default class extends React.Component {
-
+/*
   static async getInitialProps () {
-    const url = "https://thisisoshan.github.io/App/static/data/"
-    const file= "index"
-    const res = await fetch(url + file + '.json')
-    const data = await res.json()
-    return { data }
-  }
-  
+      const url = "https://thisisoshan.github.io/App/static/data/"
+      const file= "index"
+      const res = await fetch(url + file + '.json')
+      const data = await res.json()
+      return { data }
+    }
+  */
 
 render () {
       return (
@@ -41,17 +41,23 @@ render () {
           <Nav Page="Home" />
           <main id="more" className="fullscreen">
             <section className="welcome-text">
-              <h5>{this.props.data.welcomeTitle}</h5>
-              <p>{this.props.data.welcomeText}</p>
+              <h5>We are creating the creators</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus incidunt ducimus ad, laborum in, laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique, saepe? adipisicing elit. Doloribus incidunt ducimus ad, laborum in, laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique, saepe? laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique</p>
             </section>
             <section className="cards">
-              <Card img="01.jpg" Title="Consistent" clsDesc="right" clsImg="left" />
-              <Card img="02.jpg" Title="Co-operative" clsDesc="left" clsImg="right" />
-              <Card img="03.jpg" Title="Diversified" clsDesc="right" clsImg="left" />
-              <Card img="04.jpg" Title="Excellent" clsDesc="left" clsImg="right" />
-              <Card img="05.jpg" Title="Concise" clsDesc="right" clsImg="left" />
-              <Card img="06.jpg" Title="Responsible" clsDesc="left" clsImg="right" />
-              <Card img="07.jpg" Title="Creative" clsDesc="right" clsImg="left" />
+              <Card img="01.jpg" Title="Consistent" />
+              <Card img="02.jpg" Title="Co-operative" />
+              <Card img="03.jpg" Title="Diversified" />
+              <Card img="04.jpg" Title="Excellent" />
+              <Card img="05.jpg" Title="Concise" />
+              <Card img="06.jpg" Title="Responsible" />
+              <Card img="07.jpg" Title="Creative" />
+
+              {/*
+                this.props.data.map(function(post, i) {
+                  return <Card key={i} img={post.card.cardImgName} Title={post.card.cardTitle} clsDesc={post.card.cardTitleClass} clsImg={post.card.cardImgClass} />
+                })
+              */}
             </section>
 
           </main>

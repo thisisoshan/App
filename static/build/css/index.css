@@ -152,7 +152,7 @@ main section {
 .cards .card {
   height: 400px;
   width: 100%;
-  background: #aaa;
+  background: #eee;
   margin: 85px 0;
 }
 .cards .card .content {
@@ -182,9 +182,15 @@ main section {
   position: absolute;
   top: 0;
 }
-.left {
+.cards .card:nth-child(odd) .content .image {
   left: 0;
 }
-.right {
+.cards .card:nth-child(odd) .content .description {
   right: 0;
+}
+.cards .card:nth-child(even) .content .image {
+  right: 0;
+}
+.cards .card:nth-child(even) .content .description {
+  left: 0;
 }

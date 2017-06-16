@@ -57,7 +57,7 @@ var Nav = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 8
                 }
-            }, _react2.default.createElement('div', { className: "image " + this.props.clsImg, __source: {
+            }, _react2.default.createElement('div', { className: 'image', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 9
                 }
@@ -65,7 +65,7 @@ var Nav = function (_Component) {
                     fileName: _jsxFileName,
                     lineNumber: 10
                 }
-            })), _react2.default.createElement('div', { className: "description " + this.props.clsDesc, __source: {
+            })), _react2.default.createElement('div', { className: 'description', __source: {
                     fileName: _jsxFileName,
                     lineNumber: 12
                 }

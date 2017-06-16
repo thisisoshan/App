@@ -1,7 +1,8 @@
+@import url('../global/less/global.less');
+
 @fontD : 'Cinzel Decorative', monospace;
 @fontP : 'Playfair Display', sans-serif;
 
-@import url('../global/less/global.less');
 
 .landing-bg {
   background-image: linear-gradient(rgba(212,47,47,.2),rgba(212,47,47,.3)), url(/static/img/head.jpg);
@@ -63,7 +64,7 @@
   .card {
     height: 400px;
     width: 100%;
-    background: #aaa;
+    background: #eee;
     margin: 85px 0;
     
     .content {
@@ -99,10 +100,24 @@
     }
 
   }
-}
-.left {
-  left: 0;
-}
-.right {
-  right: 0;
+  .card:nth-child(odd) {
+    .content {
+      .image {
+        left: 0;
+      }
+      .description {
+        right: 0;
+      }
+    }
+  }
+  .card:nth-child(even) {
+    .content {
+      .image {
+        right: 0;
+      }
+      .description {
+        left: 0;
+      }
+    }
+  }
 }

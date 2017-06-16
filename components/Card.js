@@ -6,10 +6,10 @@ class Nav extends Component {
         return(
             <div className="card">
                 <div className="content">
-                    <div className={"image " + this.props.clsImg}>
+                    <div className="image">
                         <img src={"static/assets/images/" + this.props.img} alt="" />
                     </div>
-                    <div className={"description " + this.props.clsDesc}>
+                    <div className="description">
                         <h3>{this.props.Title}</h3>
                     </div>
                 </div>
