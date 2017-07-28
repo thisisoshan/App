@@ -5,7 +5,7 @@ import Head from 'next/head'
 import 'isomorphic-fetch'
 
 export default class extends React.Component {
-/*
+
   static async getInitialProps () {
       const url = "https://thisisoshan.github.io/App/static/data/"
       const file= "index"
@@ -13,31 +13,31 @@ export default class extends React.Component {
       const data = await res.json()
       return { data }
     }
-  */
+
 
 render () {
       return (
         <div>
           <Head>
-              <meta charset="UTF-8" />
-              <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-              <title>Welcome | Strontium University</title>
-              <link href="/static/img/favicon/favicon.ico" rel="icon"/>
-              <link href="static/css/reset.css" rel="stylesheet"/>
-              <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-              <link href="static/materialize/css/materialize.min.css" rel="stylesheet"/>
-              <link href="static/build/css/index.css" rel="stylesheet" />
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+            <title>Welcome | Strontium University</title>
+            <link href="/static/img/favicon/favicon.ico" rel="icon"/>
+            <link href="static/css/reset.css" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+            <link href="static/materialize/css/materialize.min.css" rel="stylesheet"/>
+            <link href="static/build/css/index.css" rel="stylesheet" />
 
           </Head>
           <section className="fullscreen">
-              <div className="fullscreen landing-bg">
-                <div className="welcome">
-                  <h4>Welcome To</h4>
-                  <h1>Strontium University</h1>
-                  <a href="#more"><p>WE ARE CREATING THE CREATORS</p></a>
-                </div>
+            <div className="fullscreen landing-bg">
+              <div className="welcome">
+                <h4>Welcome To</h4>
+                <h1>Strontium University</h1>
+                <a href="#more"><p>WE ARE CREATING THE CREATORS</p></a>
               </div>
-            </section>
+            </div>
+          </section>
           <Nav Page="Home" />
           <main id="more" className="fullscreen">
             <section className="welcome-text">
@@ -45,19 +45,11 @@ render () {
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus incidunt ducimus ad, laborum in, laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique, saepe? adipisicing elit. Doloribus incidunt ducimus ad, laborum in, laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique, saepe? laboriosam odit molestias illo. Hic aperiam impedit corrupti, et quis quo magnam consequuntur. Dolores similique</p>
             </section>
             <section className="cards">
-              <Card img="01.jpg" Title="Consistent" />
-              <Card img="02.jpg" Title="Co-operative" />
-              <Card img="03.jpg" Title="Diversified" />
-              <Card img="04.jpg" Title="Excellent" />
-              <Card img="05.jpg" Title="Concise" />
-              <Card img="06.jpg" Title="Responsible" />
-              <Card img="07.jpg" Title="Creative" />
 
-              {/*
-                this.props.data.map(function(post, i) {
-                  return <Card key={i} img={post.card.cardImgName} Title={post.card.cardTitle} clsDesc={post.card.cardTitleClass} clsImg={post.card.cardImgClass} />
-                })
-              */}
+              {this.props.data.card.map(function(post, i) {
+                return <Card key={i} img={post.cardImgName} Title={post.cardTitle} clsDesc={post.cardTitleClass} clsImg={post.cardImgClass} />
+              })}
+              
             </section>
 
           </main>
